@@ -47,7 +47,7 @@ function List() {
   }, [addValue])
   
   return (
-    <div>
+    <div style={{ backgroundColor: 'gold'}}>
       {title && <h1>{title}</h1>}
       <ul>
         <input value={addValue} onChange={(event) => setAddValue(event.target.value)} />
